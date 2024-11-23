@@ -1,0 +1,126 @@
+{
+    "$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
+    "organizeImports": { "enabled": true },
+    "javascript": {
+        "formatter": {
+            "quoteStyle": "single",
+            "arrowParentheses": "asNeeded"
+        }
+    },
+    "json": {
+        "formatter": {
+            "indentWidth": 2,
+            "enabled": false
+        },
+        "linter": {
+            "enabled": false
+        }
+    },
+    "formatter": {
+        "enabled": true,
+        "indentStyle": "space",
+        "indentWidth": 4,
+        "lineWidth": 200,
+        "ignore": ["node_modules", "dist", "./.vscode"]
+    },
+    "linter": {
+        "ignore": ["node_modules", "dist", "./.vscode"],
+        "enabled": true,
+        "rules": {
+            "recommended": true,
+            "a11y": {
+                "useButtonType": "off",
+                "useKeyWithClickEvents": "off"
+            },
+            "style": {
+              "noUselessElse": "off",
+              "noNonNullAssertion": "off",
+              "noParameterAssign": "off",
+              "noUnusedTemplateLiteral": "off",
+              "noNamespace": "error",
+              "useAsConstAssertion": "error"
+            },
+            "complexity": {
+              "noForEach": "off",
+              "useOptionalChain": "off",
+              "useArrowFunction": "off",
+              "noExtraBooleanCast": "error",
+              "noMultipleSpacesInRegularExpressionLiterals": "error",
+              "noUselessCatch": "error",
+              "noWith": "error"
+            },
+            "performance": {
+                "noDelete": "off",
+                "noAccumulatingSpread": "off"
+            },
+            "suspicious": {
+              "noArrayIndexKey": "off",
+              "noConfusingVoidType": "error",
+              "noConsoleLog": "error",
+              "noAsyncPromiseExecutor": "error",
+              "noCatchAssign": "error",
+              "noClassAssign": "error",
+              "noCompareNegZero": "error",
+              "noControlCharactersInRegex": "error",
+              "noDebugger": "error",
+              "noDuplicateCase": "error",
+              "noDuplicateClassMembers": "error",
+              "noDuplicateObjectKeys": "error",
+              "noDuplicateParameters": "error",
+              "noEmptyBlockStatements": "error",
+              "noFallthroughSwitchClause": "error",
+              "noFunctionAssign": "error",
+              "noGlobalAssign": "error",
+              "noImportAssign": "error",
+              "noMisleadingCharacterClass": "error",
+              "noPrototypeBuiltins": "error",
+              "noRedeclare": "error",
+              "noShadowRestrictedNames": "error",
+              "noUnsafeNegation": "error",
+              "useGetterReturn": "error",
+              "useValidTypeof": "error",
+              "noExplicitAny": "error",
+              "noExtraNonNullAssertion": "error",
+              "noMisleadingInstantiator": "error",
+              "noUnsafeDeclarationMerging": "error",
+              "useAwait": "error",
+              "useNamespaceKeyword": "error",
+              "noCommentText": "error",
+              "noDuplicateJsxProps": "error"
+            },
+            "correctness": {
+              "noUnnecessaryContinue": "off",
+              "noUnusedImports": "error",
+              "noConstAssign": "error",
+              "noConstantCondition": "error",
+              "noEmptyPattern": "error",
+              "noGlobalObjectCalls": "error",
+              "noInvalidConstructorSuper": "error",
+              "noInvalidNewBuiltin": "error",
+              "noNonoctalDecimalEscape": "error",
+              "noSelfAssign": "error",
+              "noSetterReturn": "error",
+              "noUndeclaredVariables": "error",
+              "noUnreachable": "error",
+              "noUnreachableSuper": "error",
+              "noUnsafeFinally": "error",
+              "noUnsafeOptionalChaining": "error",
+              "noUnusedLabels": "error",
+              "noUnusedPrivateClassMembers": "error",
+              "noUnusedVariables": "error",
+              "useIsNan": "error",
+              "useValidForDirection": "error",
+              "useYield": "error",
+              "noNewSymbol": "off",
+              "useArrayLiterals": "off",
+              "noChildrenProp": "error",
+              "useExhaustiveDependencies": "warn",
+              "useHookAtTopLevel": "error",
+              "useJsxKeyInIterable": "error"
+            },
+            "security": {
+              "noDangerouslySetInnerHtmlWithChildren": "error"
+            }
+        }
+    }
+}
