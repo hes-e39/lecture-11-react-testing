@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`A List should render list (snapshot) 1`] = `
+<div
+  className="sc-bdvvtL JUoCo"
+>
+  <h3
+    className="sc-gsDKAQ"
+  >
+    My custom list
+  </h3>
+  <ul />
+</div>
+`;
+
+exports[`A List should render list (snapshot) 2`] = `
+<div
+  className="sc-bdvvtL JUoCo"
+>
+  <h3
+    className="sc-gsDKAQ"
+  >
+    My List
+  </h3>
+  <ul>
+    <li
+      className="sc-dkPtRN kOVdWx"
+    >
+      item 1
+    </li>
+    <li
+      className="sc-dkPtRN kOVdWx"
+    >
+      item 2
+    </li>
+    <li
+      className="sc-dkPtRN kOVdWx"
+    >
+      item 3
+    </li>
+  </ul>
+</div>
+`;

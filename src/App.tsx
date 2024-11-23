@@ -1,23 +1,28 @@
-import { useState } from 'react';
-import reactLogo from '/react.svg';
+import { Link, Outlet } from 'react-router-dom';
 
 function App() {
-    const [count, setCount] = useState<number>(1);
-
     return (
-        <div className="flex flex-col items-center gap-12 pt-32">
-            <div>
-                <a href="https://react.dev" target="_blank" rel="noreferrer">
-                    <img src={reactLogo} className="size-32" alt="React logo" />
-                </a>
-            </div>
-
-            <div className="text-3xl font-bold underline">E-39: Vite + React + TypeScript</div>
-            <div>
-                <button className="border-[0.5px] border-white p-2" onClick={() => setCount(count => count + 1)}>
-                    Click me: {count}
-                </button>
-            </div>
+        <div className="p-10">
+            <nav className="mb-4">
+                <ul className="flex justify-between text-lg font-bold *:p-2 *:bg-gray-100 *:rounded-lg">
+                    <li className="hover:underline">
+                        <Link to="/example1">Example 1 (Jest)</Link>
+                    </li>
+                    <li className="hover:underline">
+                        <Link to="/example2">Example 2 (Jest)</Link>
+                    </li>
+                    <li className="hover:underline">
+                        <Link to="/example3">Example 3 (Jest)</Link>
+                    </li>
+                    <li className="hover:underline">
+                        <Link to="/example4">Example 4 (Cypress)</Link>
+                    </li>
+                    <li className="hover:underline">
+                        <Link to="/example5">Example 5 (Cypress)</Link>
+                    </li>
+                </ul>
+            </nav>
+            <Outlet />
         </div>
     );
 }
