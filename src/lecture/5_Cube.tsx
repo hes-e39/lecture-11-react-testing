@@ -78,6 +78,8 @@ const createCube = (canvas: HTMLCanvasElement) => {
     const _color = gl.getAttribLocation(shaderprogram, 'color');
     gl.vertexAttribPointer(_color, 3, gl.FLOAT, false, 0, 0);
     gl.enableVertexAttribArray(_color);
+
+    // biome-ignore lint/correctness/useHookAtTopLevel: This isn't a hook
     gl.useProgram(shaderprogram);
 
     /*==================== MATRIX ====================== */

@@ -5,13 +5,17 @@ import mathModule from './1_math';
 // test suite
 describe('Math module', () => {
     // example: authorization
+    // biome-ignore lint/suspicious/noEmptyBlockStatements: demo
     beforeAll(() => {});
 
     // example: clean up
+    // biome-ignore lint/suspicious/noEmptyBlockStatements: demo
     afterAll(() => {});
 
+    // biome-ignore lint/suspicious/noEmptyBlockStatements: demo
     beforeEach(() => {});
 
+    // biome-ignore lint/suspicious/noEmptyBlockStatements: demo
     afterEach(() => {});
 
     // it/test
