@@ -17,7 +17,7 @@
         }
     },
     "files": {
-        "include": ["src/**/*.ts", "src/**/*.tsx", "cypress/**/*.ts", "cypress/**/*.tsx"],
+        "include": ["src/**/*.ts", "src/**/*.tsx", "cypress/**/*.ts", "cypress/**/*.tsx", "*.config.ts"],
         "ignore": ["node_modules", "dist", "public", "./.vscode"]
     },
     "formatter": {
@@ -27,7 +27,6 @@
         "lineWidth": 200
     },
     "linter": {
-        "include": ["src", "cypress"],
         "ignore": ["node_modules", "dist", "./.vscode"],
         "enabled": true,
         "rules": {
@@ -87,7 +86,7 @@
               "noExtraNonNullAssertion": "error",
               "noMisleadingInstantiator": "error",
               "noUnsafeDeclarationMerging": "error",
-              "useAwait": "error",
+              "useAwait": "off",
               "useNamespaceKeyword": "error",
               "noCommentText": "error",
               "noDuplicateJsxProps": "error"

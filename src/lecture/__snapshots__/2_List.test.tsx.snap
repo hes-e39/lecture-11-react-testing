@@ -1,0 +1,213 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`A List > should render list (snapshot) 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    
+    
+    
+  
+
+
+    <vite-plugin-checker-error-overlay />
+    <div>
+      <div
+        class="border border-gray-300 p-4 rounded-lg w-fit"
+      >
+        <h3
+          class="text-lg font-bold"
+        >
+          My custom list
+        </h3>
+        <ul
+          class=""
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="border border-gray-300 p-4 rounded-lg w-fit"
+    >
+      <h3
+        class="text-lg font-bold"
+      >
+        My custom list
+      </h3>
+      <ul
+        class=""
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "getByAltText": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholder": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`A List > should render list (snapshot) 2`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    
+    
+    
+  
+
+
+    <vite-plugin-checker-error-overlay />
+    <div>
+      <div
+        class="border border-gray-300 p-4 rounded-lg w-fit"
+      >
+        <h3
+          class="text-lg font-bold"
+        >
+          My custom list
+        </h3>
+        <ul
+          class=""
+        />
+      </div>
+    </div>
+    <div>
+      <div
+        class="border border-gray-300 p-4 rounded-lg w-fit"
+      >
+        <h3
+          class="text-lg font-bold"
+        >
+          My List
+        </h3>
+        <ul
+          class=""
+        >
+          <li
+            class="p-2 bg-gray-100 rounded-lg my-2 w-[150px] text-gray-600 flex gap-2 truncate"
+          >
+            <div
+              class="font-bold"
+            >
+              1
+              .
+            </div>
+            <div
+              class=""
+            >
+              item 1
+            </div>
+          </li>
+          <li
+            class="p-2 bg-gray-100 rounded-lg my-2 w-[150px] text-gray-600 flex gap-2 truncate"
+          >
+            <div
+              class="font-bold"
+            >
+              2
+              .
+            </div>
+            <div
+              class=""
+            >
+              item 2
+            </div>
+          </li>
+          <li
+            class="p-2 bg-gray-100 rounded-lg my-2 w-[150px] text-gray-600 flex gap-2 truncate"
+          >
+            <div
+              class="font-bold"
+            >
+              3
+              .
+            </div>
+            <div
+              class=""
+            >
+              item 3
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="border border-gray-300 p-4 rounded-lg w-fit"
+    >
+      <h3
+        class="text-lg font-bold"
+      >
+        My List
+      </h3>
+      <ul
+        class=""
+      >
+        <li
+          class="p-2 bg-gray-100 rounded-lg my-2 w-[150px] text-gray-600 flex gap-2 truncate"
+        >
+          <div
+            class="font-bold"
+          >
+            1
+            .
+          </div>
+          <div
+            class=""
+          >
+            item 1
+          </div>
+        </li>
+        <li
+          class="p-2 bg-gray-100 rounded-lg my-2 w-[150px] text-gray-600 flex gap-2 truncate"
+        >
+          <div
+            class="font-bold"
+          >
+            2
+            .
+          </div>
+          <div
+            class=""
+          >
+            item 2
+          </div>
+        </li>
+        <li
+          class="p-2 bg-gray-100 rounded-lg my-2 w-[150px] text-gray-600 flex gap-2 truncate"
+        >
+          <div
+            class="font-bold"
+          >
+            3
+            .
+          </div>
+          <div
+            class=""
+          >
+            item 3
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>,
+  "debug": [Function],
+  "getByAltText": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholder": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

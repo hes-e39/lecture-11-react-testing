@@ -6,13 +6,13 @@ function App() {
             <nav className="mb-4">
                 <ul className="flex justify-between text-lg font-bold *:p-2 *:bg-gray-100 *:rounded-lg">
                     <li className="hover:underline">
-                        <Link to="/example1">Example 1 (Jest)</Link>
+                        <Link to="/example1">Example 1 (Vitest)</Link>
                     </li>
                     <li className="hover:underline">
-                        <Link to="/example2">Example 2 (Jest)</Link>
+                        <Link to="/example2">Example 2 (Vitest)</Link>
                     </li>
                     <li className="hover:underline">
-                        <Link to="/example3">Example 3 (Jest)</Link>
+                        <Link to="/example3">Example 3 (Vitest)</Link>
                     </li>
                     <li className="hover:underline">
                         <Link to="/example4">Example 4 (Cypress)</Link>

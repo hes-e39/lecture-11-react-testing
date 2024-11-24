@@ -21,9 +21,6 @@ const average = (array: number[]) => {
 };
 
 const boundingBox2D = (points: { x: number; y: number }[]) => {
-    if (!Array.isArray(points)) {
-        throw new Error('parameter must be an array');
-    }
     const min = { x: Number.POSITIVE_INFINITY, y: Number.POSITIVE_INFINITY };
     const max = { x: Number.NEGATIVE_INFINITY, y: Number.NEGATIVE_INFINITY };
 
@@ -46,13 +43,6 @@ const boundingBox2D = (points: { x: number; y: number }[]) => {
 };
 
 const clamp = (points: { x: number; y: number }[], min: number, max: number) => {
-    if (!Array.isArray(points)) {
-        throw new Error('parameter must be an array');
-    }
-    if (!_isNumber(min) || !_isNumber(max)) {
-        throw new Error('parameters must be numbers');
-    }
-
     return points.map(point => {
         return {
             x: Math.max(min, Math.min(max, point.x)),

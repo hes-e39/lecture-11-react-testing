@@ -1,44 +1,43 @@
 {
-    "name": "react-ts-template",
-    "private": true,
-    "version": "1.0.0",
-    "homepage": "https://hes-e39.github.io/react-ts-template/",
-    "type": "module",
-    "scripts": {
-        "dev": "vite",
-        "build": "vite build",
-        "lint": "npm exec biome check --write ./src",
-        "preview": "vite preview",
-        "test": "vitest",
-        "cypress:open": "cypress open"
-    },
-    "dependencies": {
-        "cypress-match-screenshot": "^1.1.0",
-        "react": "^18.3.1",
-        "react-dom": "^18.3.1",
-        "react-router-dom": "^6.26.2",
-        "react-syntax-highlighter": "^15.6.1"
-    },
-    "devDependencies": {
-        "@biomejs/biome": "1.9.4",
-        "@eslint/js": "^9.8.0",
-        "@types/react": "^18.3.3",
-        "@types/react-dom": "^18.3.0",
-        "@types/react-syntax-highlighter": "^15.5.13",
-        "@vitejs/plugin-react": "^4.3.1",
-        "autoprefixer": "^10.4.20",
-        "cypress": "^13.16.0",
-        "eslint": "^9.8.0",
-        "eslint-plugin-react": "^7.35.0",
-        "eslint-plugin-react-hooks": "^5.1.0-rc.0",
-        "eslint-plugin-react-refresh": "^0.4.9",
-        "globals": "^15.9.0",
-        "postcss": "^8.4.47",
-        "tailwindcss": "^3.4.11",
-        "typescript": "^5.5.3",
-        "typescript-eslint": "^8.0.0",
-        "vite": "^5.4.0",
-        "vite-plugin-checker": "^0.7.2",
-        "vitest": "^2.1.5"
-    }
+  "name": "lecture-11-react-testing",
+  "version": "1.0.0",
+  "homepage": "https://hes-e39.github.io/react/lecture-11-react-testing",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "npm exec biome check --write ./src",
+    "preview": "vite preview",
+    "test": "vitest",
+    "cypress:open": "cypress open",
+    "coverage": "vitest run --coverage",
+    "test:browser": "vitest --workspace=vitest.workspace.ts"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "react-syntax-highlighter": "^15.6.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "@vitejs/plugin-react": "^4.3.1",
+    "@vitest/browser": "^2.1.5",
+    "@vitest/coverage-v8": "^2.1.5",
+    "autoprefixer": "^10.4.20",
+    "cypress": "^13.16.0",
+    "cypress-match-screenshot": "^1.1.0",
+    "globals": "^15.9.0",
+    "playwright": "^1.49.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.11",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.0",
+    "vite-plugin-checker": "^0.7.2",
+    "vitest": "^2.1.0",
+    "vitest-browser-react": "^0.0.3"
+  }
 }
