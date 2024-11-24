@@ -17,16 +17,10 @@ describe('A List', () => {
         await expect.element(getByText('item 1')).toBeInTheDocument();
         await expect.element(getByText('item 2')).toBeInTheDocument();
         await expect.element(getByText('item 3')).toBeInTheDocument();
-
-        // check all 3 items are there and in the correct order
-
-        // Should only add 3 items and not a forth
     });
 
     // snapshot tests
     it('should render list (snapshot)', () => {
-        // // render the component
-        // let root;
         const result = render(<List title="My custom list" />);
         expect(result).toMatchSnapshot();
 

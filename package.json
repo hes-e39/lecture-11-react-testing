@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "npm exec biome check --write ./src",
     "preview": "vite preview",
-    "test": "vitest",
+    "test": "vitest --typecheck",
     "cypress:open": "cypress open",
     "coverage": "vitest run --coverage",
     "test:browser": "vitest --workspace=vitest.workspace.ts"

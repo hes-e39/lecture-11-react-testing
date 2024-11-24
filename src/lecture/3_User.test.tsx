@@ -10,7 +10,7 @@ const fakeUser = {
 };
 
 const fetch = vi.fn(() => {
-    return Promise.resolve({ json: () => Promise.resolve(fakeUser) });
+    return Promise.resolve({ json: () => fakeUser });
 });
 vi.stubGlobal('fetch', fetch);
 

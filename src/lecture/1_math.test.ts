@@ -1,4 +1,4 @@
-import { afterAll, afterEach, beforeAll, beforeEach, describe, expect, it } from 'vitest';
+import { assert, afterAll, afterEach, beforeAll, beforeEach, describe, expect, it } from 'vitest';
 
 import mathModule from './1_math';
 
@@ -22,7 +22,11 @@ describe('Math module', () => {
     it('should add 1 + 2 and equal 3', () => {
         const result = mathModule.add(1, 2);
 
+        // expect example
         expect(result).toBe(3);
+
+        // assert example
+        assert(result === 3, 'result should be 3');
     });
 
     // Exceptions
@@ -61,9 +65,3 @@ describe('Math module', () => {
         expect(clampedPoints).toContainEqual({ x: 5, y: 5 });
     });
 });
-
-// More about expect
-// https://jestjs.io/docs/expect
-
-// When to use unit tests
-// - logic is encapsulated and no need to interact with DOM
