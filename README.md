@@ -3,6 +3,18 @@
 
 Introduction to React Testing and testing patterns.
 
+
+## Testing
+
+### Vitest
+
+`npm run test`
+
+### Cypress
+
+1. Start the dev server: `npm run dev`
+2. Open Cypress in a different terminal: `npm run cypress:open`
+
 ## Dev Setup
 
 **Prerequisite: you have `node` installed on the command line and can run `node --version`**
@@ -14,3 +26,6 @@ Introduction to React Testing and testing patterns.
 5. You might need to restart VSCode in order for extensions to take in effect. Restart by running `CMD+Shift+P` and search for "Reload Window", hit `Enter`.
 6. Verify that BiomeJS is working by adding some extra indents/spaces in `src/main.tsx`. It should format the file on save.
 7. Start the dev server with `npm run dev` and navigate to http://localhost:5173/
+
+
+
