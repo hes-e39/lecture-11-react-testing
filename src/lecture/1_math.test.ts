@@ -2,6 +2,8 @@ import { assert, afterAll, afterEach, beforeAll, beforeEach, describe, expect, i
 
 import mathModule from './1_math';
 
+// https://vitest.dev/api/expect.html#expect
+
 // test suite
 describe('Math module', () => {
     // example: authorization
